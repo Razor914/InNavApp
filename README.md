@@ -133,27 +133,6 @@ The system consists of several main components:
 │    Floor Plan Map    │
 └──────────────────────┘
 ```
-
----
-
-## 📱 Application Screenshots
-
-### 🏠 Main Interface
-
-<p align="center">
-  <img src="screenshots/home.png" width="200"/>
-  <img src="screenshots/floor-plan.png" width="200"/>
-</p>
-
-### 📍 Indoor Positioning
-
-<p align="center">
-  <img src="screenshots/wifi-scan.png" width="200"/>
-  <img src="screenshots/location-result.png" width="200"/>
-</p>
-
-> Replace the screenshot filenames above with the actual files uploaded to the `screenshots` directory.
-
 ---
 
 ## 📂 Project Structure
