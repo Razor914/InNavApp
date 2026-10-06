@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397675913801",
+    "project_id": "innavapp",
+    "storage_bucket": "innavapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397675913801:android:c8862ce970020a4670d598",
+        "android_client_info": {
+          "package_name": "raztech.dev.innavapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7PgdrdPn3AO0_-6hFzwbMLN6Pys3RRlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
