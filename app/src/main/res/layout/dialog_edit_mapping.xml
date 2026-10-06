@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etLabel"
+        android:layout_width="372dp"
+        android:layout_height="55dp"
+        android:hint="Nama Ruangan" />
+    <EditText
+        android:id="@+id/etX"
+        android:hint="Posisi X (0..1)"
+        android:inputType="numberDecimal"
+        android:layout_width="372dp"
+        android:layout_height="55dp"/>
+    <EditText
+        android:id="@+id/etY"
+        android:hint="Posisi Y (0..1)"
+        android:inputType="numberDecimal"
+        android:layout_width="372dp"
+        android:layout_height="55dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips: X dan Y adalah posisi relatif pada gambar denah (0 = kiri/atas, 1 = kanan/bawah)"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+</LinearLayout>

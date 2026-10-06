@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ic_back"
+        android:contentDescription="Kembali" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/card_bg">
+
+        <ImageView
+            android:id="@+id/imgDenah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter" />
+
+        <View
+            android:id="@+id/markerView"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/marker_dot"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#FFF5E0"
+        android:padding="10dp"
+        android:text="Klik pada Denah untuk Mapping Ruangan...
+Klik pada list untuk menghapus Mapping..."
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="@color/black" />
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum ada mapping.\nKetuk denah untuk menambahkan."
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#666666"
+        android:visibility="gone"
+        android:layout_marginBottom="6dp" />
+
+    <ListView
+        android:id="@+id/listViewMapping"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:divider="@null"
+        android:listSelector="?attr/selectableItemBackground"
+        android:fastScrollEnabled="true" />
+</LinearLayout>
